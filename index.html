@@ -88,7 +88,19 @@
         .hero-section .btn {
             animation: fadeInUp 1s ease 0.4s both;
         }
-        
+
+        /* Hero Image */
+        .hero-image {
+            animation: fadeInUp 1s ease 0.3s both;
+            width: 100%;
+        }
+
+        @media (max-width: 991px) {
+            .hero-image {
+                margin-top: 30px;
+            }
+        }
+
         /* Section Styling */
         section {
             padding: 80px 0;
@@ -229,11 +241,21 @@
             background-color: white;
         }
         
+        /* Contact Image - Match height of contact info box */
         .contact-info {
-            background: rgba(255,255,255,0.1);
-            padding: 30px;
-            border-radius: 10px;
-            margin-bottom: 20px;
+            height: 100%;
+        }
+
+        .contact-image {
+            height: 450px;
+            margin-left: 150px;
+        }
+
+        @media (max-width: 991px) {
+            .contact-image {
+                margin-top: 40px;
+                height: 400px;
+            }
         }
         
         .contact-item {
@@ -353,10 +375,13 @@
     <section id="home" class="hero-section">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-8">
+                <div class="col-lg-6">
                     <h1>Professional ASL Interpretation Services</h1>
                     <p class="lead">Bridging communication gaps with certified, culturally sensitive American Sign Language interpretation.</p>
                     <a href="#contact" class="btn btn-primary-custom btn-lg">Get in Touch</a>
+                </div>
+                <div class="col-lg-6">
+                    <img src="assets/images/spencer-love.jpeg" alt="ASL Interpretation" class="img-fluid rounded hero-image" style="box-shadow: 0 10px 30px rgba(0,0,0,0.4); border-radius: 15px;">
                 </div>
             </div>
         </div>
@@ -430,7 +455,7 @@
 
                     <!-- Experience Item 2 -->
                     <div class="experience-item">
-                        <h4>Conversational ASL Credential Program</h4>
+                        <h4>Conversational ASL Credential</h4>
                         <p class="experience-date">Southern Oregon University | September 2022 - June 2024</p>
                         <p>Completed a comprehensive two-year American Sign Language program developing foundational linguistic and cultural competencies essential for effective interpretation. This intensive coursework provided the linguistic foundation necessary for professional interpretation practice.</p>
                         <ul>
@@ -674,11 +699,11 @@
                 <h2 class="section-title">Contact Me</h2>
                 <p class="section-subtitle">Let's discuss your interpretation needs</p>
             </div>
-            <div class="row">
-                <div class="col-lg-8 mx-auto">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
                     <div class="contact-info">
                         <div class="row">
-                            <div class="col-md-6">
+                            <div class="col-md-12">
                                 <div class="contact-item">
                                     <i class="bi bi-envelope-fill"></i>
                                     <div>
@@ -687,7 +712,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-12">
                                 <div class="contact-item">
                                     <i class="bi bi-telephone-fill"></i>
                                     <div>
@@ -696,7 +721,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-12">
                                 <div class="contact-item">
                                     <i class="bi bi-geo-alt-fill"></i>
                                     <div>
@@ -705,7 +730,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-12">
                                 <div class="contact-item">
                                     <i class="bi bi-linkedin"></i>
                                     <div>
@@ -717,13 +742,16 @@
                         </div>
                     </div>
                     
-                    <div class="text-center mt-4">
+                    <div class="mt-4">
                         <p class="lead">I'm currently accepting inquiries for interpretation services.</p>
                         <p>Whether you need interpretation for educational settings, medical appointments, business meetings, or special events, I'm here to help facilitate clear and effective communication.</p>
                         <a href="mailto:your.email@example.com" class="btn btn-primary-custom btn-lg mt-3">
                             <i class="bi bi-envelope-fill me-2"></i> Send Me an Email
                         </a>
                     </div>
+                </div>
+                <div class="col-lg-6">
+                    <img src="assets/images/spencer.jpeg" alt="ASL Communication" class="img-fluid rounded contact-image" style="box-shadow: 0 10px 30px rgba(0,0,0,0.5); border-radius: 15px; border: 3px solid rgba(255,255,255,0.3);">
                 </div>
             </div>
         </div>
