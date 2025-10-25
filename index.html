@@ -12,6 +12,11 @@
     <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
     
+    <!-- FontAwesome Free Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Material Icons -->
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <style>
         :root {
             --primary-color: #2C3E50;
@@ -35,7 +40,7 @@
         }
         
         .navbar-brand {
-            font-weight: 600;
+            font-weight: 400;
             font-size: 1.5rem;
             color: white !important;
         }
@@ -308,7 +313,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <div class="container">
             <a class="navbar-brand" href="#home">
-                <i class="bi bi-hands"></i> ASL Interpreter
+                <i class="fa-solid fa-hands-asl-interpreting"></i> Spencer Fitzpatrick ASL Interpreter
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
@@ -357,12 +362,22 @@
             </div>
             <div class="row">
                 <div class="col-lg-8 mx-auto">
+                    <!-- Mission Statement -->
+                    <div class="mission-statement mb-5" style="background-color: #f8f9fa; padding: 25px; border-radius: 10px; border-left: 4px solid var(--secondary-color);">
+                        <h4 style="color: var(--secondary-color); margin-bottom: 15px;">
+                            <i class="bi bi-bullseye"></i> My Mission
+                        </h4>
+                        <p style="font-size: 1.15rem; line-height: 1.8; margin-bottom: 0;">
+                            My mission is to make communication access more equitable and available to the Deaf and Hard of Hearing, in a professional and caring way, and to help to bridge the hearing world with that of the Deaf community.
+                        </p>
+                    </div>
+                    
                     <div class="about-content">
-                        <p>Welcome! I'm a dedicated ASL interpreter committed to providing high-quality interpretation services that honor both Deaf culture and effective communication. My journey in ASL interpretation began with a passion for language and a deep respect for the Deaf community.</p>
+                        <p>Hello! Welcome to my EPortfolio. I am Spencer Fitzpatrick and I am an interpreting student at American River College’s Interpreter Preparation Program. I learned American Sign Language in Ashland, Oregon at Southern Oregon University, where I received my Bachelor’s Degree in Political Science and Philosophy. I completed 2 years of ASL courses there, and before the first semester had finished, I knew I wanted to be an interpreter. I had become very close with my ASL teacher and he has inspired me to work with and for the Deaf community as an interpreter.</p>
                         
-                        <p>Currently pursuing my certification through an intensive ASL Interpreter program, I bring a combination of technical proficiency in American Sign Language and a genuine commitment to cultural competency. I understand that interpretation is more than just converting words between languages—it's about conveying meaning, emotion, and context while respecting the dignity and autonomy of all parties involved.</p>
+                        <p>My other passions include rock climbing and reading. I have been climbing since I was very young and it is truly my happy place. It is a perfect mixture of physical activity and mental stimulation. While on the wall, your strength and dexterity are tested, as well as your problem solving and quick thinking skills. I have steadily improved and now I am able to climb V6 problems. My love of reading also started quite young. I read Jules Verne and Mark Twain and fell in love with science fiction. Now my collection is over 100 books and I especially love the works of Arthur C. Clarke, Frank Herbert, Dan Simmons and Isaac Asimov. A life goal of mine is to read the entirety of Asimov’s Robots/Empire/Foundation series. These interests are what bonded me to my ASL teacher and I would practice ASL through discussions about novels. We have kept in touch and have an ASL Book Club.</p>
                         
-                        <p>Whether facilitating communication in educational settings, medical appointments, business meetings, or community events, I approach each assignment with professionalism, ethical integrity, and cultural sensitivity.</p>
+                        <p>I live in the Sacramento area and am willing to travel within reason for work. Please take a few minutes to browse my portfolio to learn more about me. I am excited to work with you!</p>
                     </div>
                     
                     <div class="mt-5">
@@ -427,6 +442,16 @@
                             <li>Teaching ASL grammar and vocabulary</li>
                         </ul>
                     </div>
+
+                    <!-- Resume Download -->
+                    <div class="text-center mt-5">
+                        <a href="documents/resume.pdf" class="btn btn-primary-custom btn-lg" download>
+                            <i class="bi bi-file-earmark-pdf-fill me-2"></i> Download My Resume
+                        </a>
+                        <p class="mt-3 text-muted">
+                            <small>View my complete professional background and qualifications</small>
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -445,13 +470,13 @@
                     <div class="sample-card">
                         <div class="sample-card-body">
                             <h5>Educational Interpretation Sample</h5>
-                            <p>Interpretation of a college lecture on biology, demonstrating vocabulary management and clear conveyance of complex academic concepts.</p>
+                            <p>This section will feature an educational interpretation sample demonstrating academic vocabulary and lecture interpretation skills.</p>
                             <div class="mt-3">
                                 <span class="sample-badge">Educational</span>
                                 <span class="sample-badge">Academic</span>
                             </div>
                             <div class="mt-3">
-                                <a href="#" class="btn btn-sm btn-outline-primary">View Sample</a>
+                                <button class="btn btn-sm btn-secondary" disabled>Coming Soon</button>
                             </div>
                         </div>
                     </div>
@@ -462,13 +487,13 @@
                     <div class="sample-card">
                         <div class="sample-card-body">
                             <h5>Community Event Interpretation</h5>
-                            <p>Interpretation of a community town hall meeting, showcasing consecutive interpretation and managing multiple speakers.</p>
+                            <p>This section will feature a community interpretation sample showcasing public event and group communication interpretation.</p>
                             <div class="mt-3">
                                 <span class="sample-badge">Community</span>
                                 <span class="sample-badge">Public Speaking</span>
                             </div>
                             <div class="mt-3">
-                                <a href="#" class="btn btn-sm btn-outline-primary">View Sample</a>
+                                <button class="btn btn-sm btn-secondary" disabled>Coming Soon</button>
                             </div>
                         </div>
                     </div>
@@ -479,13 +504,13 @@
                     <div class="sample-card">
                         <div class="sample-card-body">
                             <h5>Medical Terminology Demonstration</h5>
-                            <p>Demonstration of medical terminology and healthcare interpretation scenarios, emphasizing accuracy and sensitivity.</p>
+                            <p>This section will feature a healthcare interpretation sample demonstrating medical terminology and patient communication skills.</p>
                             <div class="mt-3">
                                 <span class="sample-badge">Medical</span>
                                 <span class="sample-badge">Healthcare</span>
                             </div>
                             <div class="mt-3">
-                                <a href="#" class="btn btn-sm btn-outline-primary">View Sample</a>
+                                <button class="btn btn-sm btn-secondary" disabled>Coming Soon</button>
                             </div>
                         </div>
                     </div>
@@ -496,13 +521,13 @@
                     <div class="sample-card">
                         <div class="sample-card-body">
                             <h5>Business Meeting Interpretation</h5>
-                            <p>Sample interpretation from a professional business meeting, demonstrating formal register and business vocabulary.</p>
+                            <p>This section will feature a business interpretation sample demonstrating professional workplace communication skills.</p>
                             <div class="mt-3">
                                 <span class="sample-badge">Business</span>
                                 <span class="sample-badge">Professional</span>
                             </div>
                             <div class="mt-3">
-                                <a href="#" class="btn btn-sm btn-outline-primary">View Sample</a>
+                                <button class="btn btn-sm btn-secondary" disabled>Coming Soon</button>
                             </div>
                         </div>
                     </div>
@@ -513,13 +538,13 @@
                     <div class="sample-card">
                         <div class="sample-card-body">
                             <h5>Storytelling & Cultural Expression</h5>
-                            <p>Interpretation of a narrative piece, demonstrating facial expressions, spatial referencing, and cultural nuances in ASL.</p>
+                            <p>This section will feature a narrative interpretation sample demonstrating ASL storytelling and cultural expression techniques.</p>
                             <div class="mt-3">
                                 <span class="sample-badge">Cultural</span>
                                 <span class="sample-badge">Narrative</span>
                             </div>
                             <div class="mt-3">
-                                <a href="#" class="btn btn-sm btn-outline-primary">View Sample</a>
+                                <button class="btn btn-sm btn-secondary" disabled>Coming Soon</button>
                             </div>
                         </div>
                     </div>
@@ -530,13 +555,13 @@
                     <div class="sample-card">
                         <div class="sample-card-body">
                             <h5>Video Remote Interpretation (VRI)</h5>
-                            <p>Demonstration of VRI skills and best practices for remote interpretation services.</p>
+                            <p>This section will feature a VRI sample demonstrating remote interpretation skills and virtual platform best practices.</p>
                             <div class="mt-3">
                                 <span class="sample-badge">VRI</span>
                                 <span class="sample-badge">Technology</span>
                             </div>
                             <div class="mt-3">
-                                <a href="#" class="btn btn-sm btn-outline-primary">View Sample</a>
+                                <button class="btn btn-sm btn-secondary" disabled>Coming Soon</button>
                             </div>
                         </div>
                     </div>
@@ -544,7 +569,9 @@
             </div>
             
             <div class="text-center mt-5">
-                <p class="text-muted"><i class="bi bi-info-circle"></i> Video samples available upon request. All samples are created with appropriate permissions and follow ethical guidelines.</p>
+                <p class="text-muted">
+                    <i class="bi bi-info-circle"></i> Work samples will be added as they become available through my program and professional practice. All samples will be created with appropriate permissions and follow ethical guidelines.
+                </p>
             </div>
         </div>
     </section>
@@ -614,7 +641,7 @@
     <!-- Footer -->
     <footer>
         <div class="container">
-            <p>&copy; <span id="year"></span> Your Name - ASL Interpreter. All rights reserved.</p>
+            <p>&copy; <span id="year"></span> Spencer Fitzpatrick - ASL Interpreter. All rights reserved.</p>
             <p class="mt-2">
                 <small>Committed to ethical interpretation practices and cultural competency.</small>
             </p>
